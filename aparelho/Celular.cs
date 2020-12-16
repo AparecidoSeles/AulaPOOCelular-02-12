@@ -33,7 +33,7 @@ namespace AulaPOOCelular_02_12.aparelho
                     ligado = false;
                 }
 
-            return resposta;
+            return "";
         }
          public string Desligar(){
 
@@ -45,7 +45,7 @@ namespace AulaPOOCelular_02_12.aparelho
            return "";
         }
         public string EnviarMenssagem(){
-
+            Console.WriteLine("Menssagem enviada");
             return "";
         } 
         // public string 

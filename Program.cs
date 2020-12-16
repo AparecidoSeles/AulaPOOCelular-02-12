@@ -39,10 +39,14 @@ namespace AulaPOOCelular_02_12
                     celular.EnviarMenssagem();
                         break;
 
-                    default:
+                        case 0:
+                        celular.Desligar();
+                            break;
+
+                    default :
+                        Console.WriteLine("Opção inválida");
                         break;
                 }
-                
 
             } while (opcao != 0);
            
